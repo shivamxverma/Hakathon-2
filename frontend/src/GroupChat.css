@@ -1,0 +1,67 @@
+.group-chat {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.connection-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.connection-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.connection-form input {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.connection-form button,
+.message-input button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connection-form button:disabled,
+.message-input button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.disconnect-btn {
+  background-color: #dc3545;
+}
+
+.messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.message {
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+.message-input {
+  display: flex;
+  gap: 10px;
+}
+
+.message-input input {
+  flex-grow: 1;
+  padding: 5px;
+}
